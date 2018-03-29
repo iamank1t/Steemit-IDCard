@@ -24,7 +24,12 @@ class IDcardVC: UIViewController {
         super.viewDidLoad()
         self.userNameLabel.text = self.userName
         self.idLabel.text = "\(self.id!)"
-        self.nameLabel.text = self.finalUserData!["name"] as? String
+        if let name = self.finalUserData!["name"] as? String {
+            self.nameLabel.text = name
+        }
+        else {
+            self.nameLabel.text = "My username is enough"
+        }
         if let userImageUrl = self.finalUserData!["profile_image"] as? String {
             self.profileImage.sd_setImage(with: URL(string: userImageUrl), completed: nil)
             self.profileImage.sd_setImage(with: URL(string: userImageUrl), placeholderImage: UIImage(named: "defaultImage.png"))
