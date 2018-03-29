@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5FF5323F345758BD7A5731972B9504C5"
+               BlueprintIdentifier = "2186594797E6F0071830D8253C6C5262"
                BuildableName = "Pods_mySteemitIdCard.framework"
                BlueprintName = "Pods-mySteemitIdCard"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5FF5323F345758BD7A5731972B9504C5"
+            BlueprintIdentifier = "2186594797E6F0071830D8253C6C5262"
             BuildableName = "Pods_mySteemitIdCard.framework"
             BlueprintName = "Pods-mySteemitIdCard"
             ReferencedContainer = "container:Pods.xcodeproj">
