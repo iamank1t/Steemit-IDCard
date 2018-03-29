@@ -14,6 +14,10 @@
 		143BC8E1206CBEDE0003C827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143BC8DF206CBEDE0003C827 /* LaunchScreen.storyboard */; };
 		143BC8EC206CBEDE0003C827 /* mySteemitIdCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143BC8EB206CBEDE0003C827 /* mySteemitIdCardTests.swift */; };
 		143BC8F7206CBEDE0003C827 /* mySteemitIdCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143BC8F6206CBEDE0003C827 /* mySteemitIdCardUITests.swift */; };
+		143BC905206CFE870003C827 /* IDcardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143BC904206CFE870003C827 /* IDcardVC.swift */; };
+		506A0AED330A1372645A9C65 /* Pods_mySteemitIdCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98827C95F141DD15780531A /* Pods_mySteemitIdCard.framework */; };
+		508BAC097F157A45B4631439 /* Pods_mySteemitIdCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1943FC95CB62EF32327A2372 /* Pods_mySteemitIdCardTests.framework */; };
+		82898B95810964ED95932E46 /* Pods_mySteemitIdCardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644830D89D33729A97ADFCF2 /* Pods_mySteemitIdCardUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09696D537EB197E46DC3CC24 /* Pods-mySteemitIdCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySteemitIdCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mySteemitIdCard/Pods-mySteemitIdCard.debug.xcconfig"; sourceTree = "<group>"; };
+		0C35925B5B4D66FC89C9A35F /* Pods-mySteemitIdCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySteemitIdCardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mySteemitIdCardTests/Pods-mySteemitIdCardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		143BC8D3206CBEDE0003C827 /* mySteemitIdCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySteemitIdCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		143BC8D6206CBEDE0003C827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		143BC8D8206CBEDE0003C827 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		143BC8F2206CBEDE0003C827 /* mySteemitIdCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySteemitIdCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		143BC8F6206CBEDE0003C827 /* mySteemitIdCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySteemitIdCardUITests.swift; sourceTree = "<group>"; };
 		143BC8F8206CBEDE0003C827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143BC904206CFE870003C827 /* IDcardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDcardVC.swift; sourceTree = "<group>"; };
+		1943FC95CB62EF32327A2372 /* Pods_mySteemitIdCardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mySteemitIdCardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E106F024ED2EB446988C1DD /* Pods-mySteemitIdCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySteemitIdCardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mySteemitIdCardTests/Pods-mySteemitIdCardTests.release.xcconfig"; sourceTree = "<group>"; };
+		644830D89D33729A97ADFCF2 /* Pods_mySteemitIdCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mySteemitIdCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7040474B055BA191FF1B33BD /* Pods-mySteemitIdCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySteemitIdCardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mySteemitIdCardUITests/Pods-mySteemitIdCardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B6BAFD2E47691C1A98A4F230 /* Pods-mySteemitIdCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySteemitIdCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-mySteemitIdCard/Pods-mySteemitIdCard.release.xcconfig"; sourceTree = "<group>"; };
+		B98827C95F141DD15780531A /* Pods_mySteemitIdCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mySteemitIdCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BCF771074103BDCD02975F /* Pods-mySteemitIdCardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySteemitIdCardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mySteemitIdCardUITests/Pods-mySteemitIdCardUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506A0AED330A1372645A9C65 /* Pods_mySteemitIdCard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				508BAC097F157A45B4631439 /* Pods_mySteemitIdCardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82898B95810964ED95932E46 /* Pods_mySteemitIdCardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				143BC8EA206CBEDE0003C827 /* mySteemitIdCardTests */,
 				143BC8F5206CBEDE0003C827 /* mySteemitIdCardUITests */,
 				143BC8D4206CBEDE0003C827 /* Products */,
+				A99653822411CF04C5F0085B /* Pods */,
+				FA57059A8238CFCED558D5C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +118,7 @@
 			children = (
 				143BC8D6206CBEDE0003C827 /* AppDelegate.swift */,
 				143BC8D8206CBEDE0003C827 /* ViewController.swift */,
+				143BC904206CFE870003C827 /* IDcardVC.swift */,
 				143BC8DA206CBEDE0003C827 /* Main.storyboard */,
 				143BC8DD206CBEDE0003C827 /* Assets.xcassets */,
 				143BC8DF206CBEDE0003C827 /* LaunchScreen.storyboard */,
@@ -125,6 +145,29 @@
 			path = mySteemitIdCardUITests;
 			sourceTree = "<group>";
 		};
+		A99653822411CF04C5F0085B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09696D537EB197E46DC3CC24 /* Pods-mySteemitIdCard.debug.xcconfig */,
+				B6BAFD2E47691C1A98A4F230 /* Pods-mySteemitIdCard.release.xcconfig */,
+				0C35925B5B4D66FC89C9A35F /* Pods-mySteemitIdCardTests.debug.xcconfig */,
+				5E106F024ED2EB446988C1DD /* Pods-mySteemitIdCardTests.release.xcconfig */,
+				C0BCF771074103BDCD02975F /* Pods-mySteemitIdCardUITests.debug.xcconfig */,
+				7040474B055BA191FF1B33BD /* Pods-mySteemitIdCardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA57059A8238CFCED558D5C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B98827C95F141DD15780531A /* Pods_mySteemitIdCard.framework */,
+				1943FC95CB62EF32327A2372 /* Pods_mySteemitIdCardTests.framework */,
+				644830D89D33729A97ADFCF2 /* Pods_mySteemitIdCardUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 143BC8FB206CBEDE0003C827 /* Build configuration list for PBXNativeTarget "mySteemitIdCard" */;
 			buildPhases = (
+				D558B52218813F58D4DCD78E /* [CP] Check Pods Manifest.lock */,
 				143BC8CF206CBEDE0003C827 /* Sources */,
 				143BC8D0206CBEDE0003C827 /* Frameworks */,
 				143BC8D1206CBEDE0003C827 /* Resources */,
+				5D1A6C93957FA3477F9E6F41 /* [CP] Embed Pods Frameworks */,
+				3718F813D95A94D3C36D0DE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 143BC8FE206CBEDE0003C827 /* Build configuration list for PBXNativeTarget "mySteemitIdCardTests" */;
 			buildPhases = (
+				D289EF7025F6C2B15DF6ECF5 /* [CP] Check Pods Manifest.lock */,
 				143BC8E3206CBEDE0003C827 /* Sources */,
 				143BC8E4206CBEDE0003C827 /* Frameworks */,
 				143BC8E5206CBEDE0003C827 /* Resources */,
+				62AD6B62357AB7ACEE64B773 /* [CP] Embed Pods Frameworks */,
+				1998A3F185C80C9CF8B21ACC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 143BC901206CBEDE0003C827 /* Build configuration list for PBXNativeTarget "mySteemitIdCardUITests" */;
 			buildPhases = (
+				1055E09516405DB9AFA8B971 /* [CP] Check Pods Manifest.lock */,
 				143BC8EE206CBEDE0003C827 /* Sources */,
 				143BC8EF206CBEDE0003C827 /* Frameworks */,
 				143BC8F0206CBEDE0003C827 /* Resources */,
+				7FBB58D3566CC93B55980568 /* [CP] Embed Pods Frameworks */,
+				EF72D35C80A3801261F9759E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,11 +306,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1055E09516405DB9AFA8B971 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mySteemitIdCardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1998A3F185C80C9CF8B21ACC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mySteemitIdCardTests/Pods-mySteemitIdCardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3718F813D95A94D3C36D0DE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mySteemitIdCard/Pods-mySteemitIdCard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D1A6C93957FA3477F9E6F41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mySteemitIdCard/Pods-mySteemitIdCard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mySteemitIdCard/Pods-mySteemitIdCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62AD6B62357AB7ACEE64B773 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mySteemitIdCardTests/Pods-mySteemitIdCardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FBB58D3566CC93B55980568 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mySteemitIdCardUITests/Pods-mySteemitIdCardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D289EF7025F6C2B15DF6ECF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mySteemitIdCardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D558B52218813F58D4DCD78E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mySteemitIdCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF72D35C80A3801261F9759E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mySteemitIdCardUITests/Pods-mySteemitIdCardUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		143BC8CF206CBEDE0003C827 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143BC905206CFE870003C827 /* IDcardVC.swift in Sources */,
 				143BC8D9206CBEDE0003C827 /* ViewController.swift in Sources */,
 				143BC8D7206CBEDE0003C827 /* AppDelegate.swift in Sources */,
 			);
@@ -424,6 +627,7 @@
 		};
 		143BC8FC206CBEDE0003C827 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09696D537EB197E46DC3CC24 /* Pods-mySteemitIdCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +643,7 @@
 		};
 		143BC8FD206CBEDE0003C827 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6BAFD2E47691C1A98A4F230 /* Pods-mySteemitIdCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +659,7 @@
 		};
 		143BC8FF206CBEDE0003C827 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C35925B5B4D66FC89C9A35F /* Pods-mySteemitIdCardTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +677,7 @@
 		};
 		143BC900206CBEDE0003C827 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E106F024ED2EB446988C1DD /* Pods-mySteemitIdCardTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +695,7 @@
 		};
 		143BC902206CBEDE0003C827 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BCF771074103BDCD02975F /* Pods-mySteemitIdCardUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +712,7 @@
 		};
 		143BC903206CBEDE0003C827 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7040474B055BA191FF1B33BD /* Pods-mySteemitIdCardUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

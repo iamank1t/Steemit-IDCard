@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A16380DCE7BBD7B4EDC96454395A27 /* Pods-mySteemitIdCardUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CBCAF69AA2DB0C21F48A401797967EC /* Pods-mySteemitIdCardUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28995E298AA73AA1523FD410BB36A44B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */; };
+		29F4C80B31CDDE51E1B1A13F8CDF5A38 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */; };
+		2A8DD7EAC00DE12A8DC21029CA293683 /* Pods-mySteemitIdCardTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D018F6E9DFBDAA2BA029A12EFB5E5BA2 /* Pods-mySteemitIdCardTests-dummy.m */; };
+		346EA1DAE0F46E5EB7D35DE7FF9D8282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5BF6616272E1D0DF84D6D87C9336A52A /* Pods-mySteemitIdCardUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F54F071DFD6607903D5E2344235942DB /* Pods-mySteemitIdCardUITests-dummy.m */; };
+		7B72927E7FE5F8307B8B212A279477AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		86E69251966D9E34B67806BA60727BE6 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A84F94BEDB56E4A18AE6DCDDCF320EA8 /* Pods-mySteemitIdCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B70F87D483635A8BBCF27DA20E3E7DC /* Pods-mySteemitIdCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B85B243026AC2FC1A599DD0E741CB648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C03274714B753B341A4F4918A9C367C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E3BA10F44F49662BB155901B7A6A268B /* Pods-mySteemitIdCardTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D14DE4E8BA143BCF219B549ECA0939A3 /* Pods-mySteemitIdCardTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA771BF5462FC10BFF642D32A805A731 /* Pods-mySteemitIdCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F9218ADD05879ED331C9A5C812FAB /* Pods-mySteemitIdCard-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DC79AB2DFBDE41103B9F6C92EDF32A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC955F0E5D365437F72FEF4AA0AF6499;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		0D80FDEE6CFA7C29E1343DB3F3937360 /* Pods-mySteemitIdCardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mySteemitIdCardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E905188E05FF854BA8EBEF4A963D41B /* Pods-mySteemitIdCardTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mySteemitIdCardTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F121347C3BF1970987B081113A8DF39 /* Pods-mySteemitIdCardUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mySteemitIdCardUITests-resources.sh"; sourceTree = "<group>"; };
+		2367D44064AF0C4C1E6D84594E6AEB15 /* Pods-mySteemitIdCardUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-mySteemitIdCardUITests.modulemap"; sourceTree = "<group>"; };
+		2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		43D954EE0D482E63E115F7D8972615C8 /* Pods-mySteemitIdCardTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mySteemitIdCardTests-resources.sh"; sourceTree = "<group>"; };
+		44E5E652F0BFB8245895CEE46F2EEBEE /* Pods-mySteemitIdCardUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mySteemitIdCardUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46F0AC3A676AD32F3BAED665F049A060 /* Pods-mySteemitIdCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mySteemitIdCardTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D14C5FDBEBCA7A8AEA6BEE4761C07FD /* Pods_mySteemitIdCardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_mySteemitIdCardTests.framework; path = "Pods-mySteemitIdCardTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B70F87D483635A8BBCF27DA20E3E7DC /* Pods-mySteemitIdCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mySteemitIdCard-umbrella.h"; sourceTree = "<group>"; };
+		5CBCAF69AA2DB0C21F48A401797967EC /* Pods-mySteemitIdCardUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mySteemitIdCardUITests-umbrella.h"; sourceTree = "<group>"; };
+		63EB5AAA4CEE228B0901547473801E3F /* Pods-mySteemitIdCard-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mySteemitIdCard-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6ABDC3E8CDAFD8B7182602FED06FF66A /* Pods-mySteemitIdCard-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mySteemitIdCard-resources.sh"; sourceTree = "<group>"; };
+		7992A56153B53C3E69838E32E86456EF /* Pods-mySteemitIdCardUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mySteemitIdCardUITests-frameworks.sh"; sourceTree = "<group>"; };
+		7CA8B71800FAB24798702B01B458D813 /* Pods-mySteemitIdCard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mySteemitIdCard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		853EB8985425411FD849558C33084222 /* Pods-mySteemitIdCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mySteemitIdCardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		868BB4C674E0448C047E2F18B8301183 /* Pods-mySteemitIdCardTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mySteemitIdCardTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D52DCBD650BF2683A9B32BA3F3AA90D /* Pods-mySteemitIdCard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mySteemitIdCard-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC34AB056154334C80ECD8E8848DBB1C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9BE701024ADEDEF53CA2018443A01C /* Pods_mySteemitIdCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_mySteemitIdCard.framework; path = "Pods-mySteemitIdCard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C98C61BF4D16B78BB021966921C47E /* Pods-mySteemitIdCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mySteemitIdCard.debug.xcconfig"; sourceTree = "<group>"; };
+		B6CAA7B2A72F5A531B20A1FE8C030024 /* Pods_mySteemitIdCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_mySteemitIdCardUITests.framework; path = "Pods-mySteemitIdCardUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6ED1C96262404B954ADBDC6B4F6E7C8 /* Pods-mySteemitIdCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mySteemitIdCard.release.xcconfig"; sourceTree = "<group>"; };
+		B880369B4E295C166EE59102FFC508CA /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF610E40BDF6E542FA21FF7E5491205 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		C16715BF325BFA98F1DAFFEF741C5096 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C37696C7D506569E606514D40C45D38D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D018F6E9DFBDAA2BA029A12EFB5E5BA2 /* Pods-mySteemitIdCardTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mySteemitIdCardTests-dummy.m"; sourceTree = "<group>"; };
+		D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		D14DE4E8BA143BCF219B549ECA0939A3 /* Pods-mySteemitIdCardTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mySteemitIdCardTests-umbrella.h"; sourceTree = "<group>"; };
+		D92B57450B5D8785C8E422E5EE42DE90 /* Pods-mySteemitIdCardUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mySteemitIdCardUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD4F9218ADD05879ED331C9A5C812FAB /* Pods-mySteemitIdCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mySteemitIdCard-dummy.m"; sourceTree = "<group>"; };
+		E89D4A9BF637453A0BEB4FB8DAD8B20F /* Pods-mySteemitIdCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mySteemitIdCardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDA9D839DDA244F2682F9E31300CF6BB /* Pods-mySteemitIdCardTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mySteemitIdCardTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EDCB62EEB4463BC823FDB8991BEAE8A5 /* Pods-mySteemitIdCardTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-mySteemitIdCardTests.modulemap"; sourceTree = "<group>"; };
+		F38BD46CF6E061640E03EB80FCE65D52 /* Pods-mySteemitIdCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-mySteemitIdCard.modulemap"; sourceTree = "<group>"; };
+		F54F071DFD6607903D5E2344235942DB /* Pods-mySteemitIdCardUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mySteemitIdCardUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21741F9F11E50DC9455712D1153655C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B72927E7FE5F8307B8B212A279477AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F81E5AABEE84C00197A0EF73E7E646E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03274714B753B341A4F4918A9C367C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6520B937D83B4216CD77A40862663F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85B243026AC2FC1A599DD0E741CB648 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB886CEB2E1AAC0F3A833FEAB6D4AB0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346EA1DAE0F46E5EB7D35DE7FF9D8282 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10EC97C5ABBAE8DBA976D76039BB98C6 /* Pods-mySteemitIdCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC34AB056154334C80ECD8E8848DBB1C /* Info.plist */,
+				EDCB62EEB4463BC823FDB8991BEAE8A5 /* Pods-mySteemitIdCardTests.modulemap */,
+				1E905188E05FF854BA8EBEF4A963D41B /* Pods-mySteemitIdCardTests-acknowledgements.markdown */,
+				EDA9D839DDA244F2682F9E31300CF6BB /* Pods-mySteemitIdCardTests-acknowledgements.plist */,
+				D018F6E9DFBDAA2BA029A12EFB5E5BA2 /* Pods-mySteemitIdCardTests-dummy.m */,
+				868BB4C674E0448C047E2F18B8301183 /* Pods-mySteemitIdCardTests-frameworks.sh */,
+				43D954EE0D482E63E115F7D8972615C8 /* Pods-mySteemitIdCardTests-resources.sh */,
+				D14DE4E8BA143BCF219B549ECA0939A3 /* Pods-mySteemitIdCardTests-umbrella.h */,
+				E89D4A9BF637453A0BEB4FB8DAD8B20F /* Pods-mySteemitIdCardTests.debug.xcconfig */,
+				46F0AC3A676AD32F3BAED665F049A060 /* Pods-mySteemitIdCardTests.release.xcconfig */,
+			);
+			name = "Pods-mySteemitIdCardTests";
+			path = "Target Support Files/Pods-mySteemitIdCardTests";
+			sourceTree = "<group>";
+		};
+		45B5D1B7E9C5BCA37AA76CD0D55791E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF9BE701024ADEDEF53CA2018443A01C /* Pods_mySteemitIdCard.framework */,
+				4D14C5FDBEBCA7A8AEA6BEE4761C07FD /* Pods_mySteemitIdCardTests.framework */,
+				B6CAA7B2A72F5A531B20A1FE8C030024 /* Pods_mySteemitIdCardUITests.framework */,
+				B880369B4E295C166EE59102FFC508CA /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64F9257DB65858CB441E8082D2DF5D7F /* Pods-mySteemitIdCard */ = {
+			isa = PBXGroup;
+			children = (
+				C16715BF325BFA98F1DAFFEF741C5096 /* Info.plist */,
+				F38BD46CF6E061640E03EB80FCE65D52 /* Pods-mySteemitIdCard.modulemap */,
+				7CA8B71800FAB24798702B01B458D813 /* Pods-mySteemitIdCard-acknowledgements.markdown */,
+				9D52DCBD650BF2683A9B32BA3F3AA90D /* Pods-mySteemitIdCard-acknowledgements.plist */,
+				DD4F9218ADD05879ED331C9A5C812FAB /* Pods-mySteemitIdCard-dummy.m */,
+				63EB5AAA4CEE228B0901547473801E3F /* Pods-mySteemitIdCard-frameworks.sh */,
+				6ABDC3E8CDAFD8B7182602FED06FF66A /* Pods-mySteemitIdCard-resources.sh */,
+				5B70F87D483635A8BBCF27DA20E3E7DC /* Pods-mySteemitIdCard-umbrella.h */,
+				B1C98C61BF4D16B78BB021966921C47E /* Pods-mySteemitIdCard.debug.xcconfig */,
+				B6ED1C96262404B954ADBDC6B4F6E7C8 /* Pods-mySteemitIdCard.release.xcconfig */,
+			);
+			name = "Pods-mySteemitIdCard";
+			path = "Target Support Files/Pods-mySteemitIdCard";
+			sourceTree = "<group>";
+		};
+		6F7EECE80E0E917F8F02F82323CE52E0 /* Pods-mySteemitIdCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C37696C7D506569E606514D40C45D38D /* Info.plist */,
+				2367D44064AF0C4C1E6D84594E6AEB15 /* Pods-mySteemitIdCardUITests.modulemap */,
+				D92B57450B5D8785C8E422E5EE42DE90 /* Pods-mySteemitIdCardUITests-acknowledgements.markdown */,
+				44E5E652F0BFB8245895CEE46F2EEBEE /* Pods-mySteemitIdCardUITests-acknowledgements.plist */,
+				F54F071DFD6607903D5E2344235942DB /* Pods-mySteemitIdCardUITests-dummy.m */,
+				7992A56153B53C3E69838E32E86456EF /* Pods-mySteemitIdCardUITests-frameworks.sh */,
+				1F121347C3BF1970987B081113A8DF39 /* Pods-mySteemitIdCardUITests-resources.sh */,
+				5CBCAF69AA2DB0C21F48A401797967EC /* Pods-mySteemitIdCardUITests-umbrella.h */,
+				0D80FDEE6CFA7C29E1343DB3F3937360 /* Pods-mySteemitIdCardUITests.debug.xcconfig */,
+				853EB8985425411FD849558C33084222 /* Pods-mySteemitIdCardUITests.release.xcconfig */,
+			);
+			name = "Pods-mySteemitIdCardUITests";
+			path = "Target Support Files/Pods-mySteemitIdCardUITests";
+			sourceTree = "<group>";
+		};
+		70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */,
+				8EC39E1DC11846207722B71AAFE40F98 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */,
+				45B5D1B7E9C5BCA37AA76CD0D55791E5 /* Products */,
+				8A2C4EAB7F57E080AFE74CD022D1E0E8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A2C4EAB7F57E080AFE74CD022D1E0E8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64F9257DB65858CB441E8082D2DF5D7F /* Pods-mySteemitIdCard */,
+				10EC97C5ABBAE8DBA976D76039BB98C6 /* Pods-mySteemitIdCardTests */,
+				6F7EECE80E0E917F8F02F82323CE52E0 /* Pods-mySteemitIdCardUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8EC39E1DC11846207722B71AAFE40F98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */,
+				D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */,
+				2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */,
+				32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */,
+				BBF610E40BDF6E542FA21FF7E5491205 /* SwiftyJSON-prefix.pch */,
+				05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56F1385E99BD81B825E004A4260F12B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A16380DCE7BBD7B4EDC96454395A27 /* Pods-mySteemitIdCardUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4FCCA17CB4D88CACFE68974DBBCDBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3BA10F44F49662BB155901B7A6A268B /* Pods-mySteemitIdCardTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8EEF2E3720B7D3ECF06C44279D4E61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84F94BEDB56E4A18AE6DCDDCF320EA8 /* Pods-mySteemitIdCard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F709C9F87FFAE13521F9FF1184A984BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E69251966D9E34B67806BA60727BE6 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5FF5323F345758BD7A5731972B9504C5 /* Pods-mySteemitIdCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96DF35993B1C1CD0D3BE9970C26E3347 /* Build configuration list for PBXNativeTarget "Pods-mySteemitIdCard" */;
+			buildPhases = (
+				CACE18CA7F2BA159E6AA382D2D9B2727 /* Sources */,
+				21741F9F11E50DC9455712D1153655C4 /* Frameworks */,
+				ED8EEF2E3720B7D3ECF06C44279D4E61 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C4435A78487591F9480F112B3525771 /* PBXTargetDependency */,
+			);
+			name = "Pods-mySteemitIdCard";
+			productName = "Pods-mySteemitIdCard";
+			productReference = AF9BE701024ADEDEF53CA2018443A01C /* Pods_mySteemitIdCard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC955F0E5D365437F72FEF4AA0AF6499 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3B21499B82482632B94C38551667BE /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				75594C17B7FC6CF9EE93B90F6CC07810 /* Sources */,
+				6520B937D83B4216CD77A40862663F63 /* Frameworks */,
+				F709C9F87FFAE13521F9FF1184A984BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = B880369B4E295C166EE59102FFC508CA /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEFAE75FEAED41099EAA8B3F7985D793 /* Pods-mySteemitIdCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5111F0A39FBE7F14890212AD16B3F7 /* Build configuration list for PBXNativeTarget "Pods-mySteemitIdCardTests" */;
+			buildPhases = (
+				45C2A61CFCF35A94685872110C651C71 /* Sources */,
+				2F81E5AABEE84C00197A0EF73E7E646E /* Frameworks */,
+				CD4FCCA17CB4D88CACFE68974DBBCDBD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-mySteemitIdCardTests";
+			productName = "Pods-mySteemitIdCardTests";
+			productReference = 4D14C5FDBEBCA7A8AEA6BEE4761C07FD /* Pods_mySteemitIdCardTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8D872E78E1B77108C2AE9715C9D2A79 /* Pods-mySteemitIdCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6641C061840E2A8BAA40156B42CDE4 /* Build configuration list for PBXNativeTarget "Pods-mySteemitIdCardUITests" */;
+			buildPhases = (
+				06B9E3FB7E74DBFE4B4CC4E77AE58301 /* Sources */,
+				CB886CEB2E1AAC0F3A833FEAB6D4AB0A /* Frameworks */,
+				56F1385E99BD81B825E004A4260F12B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-mySteemitIdCardUITests";
+			productName = "Pods-mySteemitIdCardUITests";
+			productReference = B6CAA7B2A72F5A531B20A1FE8C030024 /* Pods_mySteemitIdCardUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 45B5D1B7E9C5BCA37AA76CD0D55791E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF5323F345758BD7A5731972B9504C5 /* Pods-mySteemitIdCard */,
+				AEFAE75FEAED41099EAA8B3F7985D793 /* Pods-mySteemitIdCardTests */,
+				D8D872E78E1B77108C2AE9715C9D2A79 /* Pods-mySteemitIdCardUITests */,
+				AC955F0E5D365437F72FEF4AA0AF6499 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06B9E3FB7E74DBFE4B4CC4E77AE58301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF6616272E1D0DF84D6D87C9336A52A /* Pods-mySteemitIdCardUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C2A61CFCF35A94685872110C651C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8DD7EAC00DE12A8DC21029CA293683 /* Pods-mySteemitIdCardTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75594C17B7FC6CF9EE93B90F6CC07810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F4C80B31CDDE51E1B1A13F8CDF5A38 /* SwiftyJSON-dummy.m in Sources */,
+				28995E298AA73AA1523FD410BB36A44B /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACE18CA7F2BA159E6AA382D2D9B2727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA771BF5462FC10BFF642D32A805A731 /* Pods-mySteemitIdCard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C4435A78487591F9480F112B3525771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = AC955F0E5D365437F72FEF4AA0AF6499 /* SwiftyJSON */;
+			targetProxy = 9DC79AB2DFBDE41103B9F6C92EDF32A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0844ADDAA7A5CDA2D62E5FF5CDA480E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 853EB8985425411FD849558C33084222 /* Pods-mySteemitIdCardUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-mySteemitIdCardUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mySteemitIdCardUITests/Pods-mySteemitIdCardUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_mySteemitIdCardUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09CAE2608BC2C2C776920F9D21014731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		288BBF9FF3D02C0101AD94CF979E13E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C98C61BF4D16B78BB021966921C47E /* Pods-mySteemitIdCard.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-mySteemitIdCard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mySteemitIdCard/Pods-mySteemitIdCard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_mySteemitIdCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EFF5F037A9149A88037E3E5D9B419D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89D4A9BF637453A0BEB4FB8DAD8B20F /* Pods-mySteemitIdCardTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-mySteemitIdCardTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mySteemitIdCardTests/Pods-mySteemitIdCardTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_mySteemitIdCardTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB3B38EB29A576F304A9B0F2A011E89B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D72E489B59C3A70112D2342F402BD262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EFC8334B2943A0300354D293EAED74F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D80FDEE6CFA7C29E1343DB3F3937360 /* Pods-mySteemitIdCardUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-mySteemitIdCardUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mySteemitIdCardUITests/Pods-mySteemitIdCardUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_mySteemitIdCardUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5EE15C65F9BB87A690C9DCC4A30EF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6ED1C96262404B954ADBDC6B4F6E7C8 /* Pods-mySteemitIdCard.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-mySteemitIdCard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mySteemitIdCard/Pods-mySteemitIdCard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_mySteemitIdCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEF3A0721A93AB6F6792708661405447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F0AC3A676AD32F3BAED665F049A060 /* Pods-mySteemitIdCardTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-mySteemitIdCardTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mySteemitIdCardTests/Pods-mySteemitIdCardTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_mySteemitIdCardTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E489B59C3A70112D2342F402BD262 /* Debug */,
+				ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6641C061840E2A8BAA40156B42CDE4 /* Build configuration list for PBXNativeTarget "Pods-mySteemitIdCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC8334B2943A0300354D293EAED74F4 /* Debug */,
+				0844ADDAA7A5CDA2D62E5FF5CDA480E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96DF35993B1C1CD0D3BE9970C26E3347 /* Build configuration list for PBXNativeTarget "Pods-mySteemitIdCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288BBF9FF3D02C0101AD94CF979E13E1 /* Debug */,
+				F5EE15C65F9BB87A690C9DCC4A30EF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3B21499B82482632B94C38551667BE /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3B38EB29A576F304A9B0F2A011E89B /* Debug */,
+				09CAE2608BC2C2C776920F9D21014731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5111F0A39FBE7F14890212AD16B3F7 /* Build configuration list for PBXNativeTarget "Pods-mySteemitIdCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFF5F037A9149A88037E3E5D9B419D4 /* Debug */,
+				FEF3A0721A93AB6F6792708661405447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
