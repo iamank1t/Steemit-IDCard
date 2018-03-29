@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143BC8D7206CBEDE0003C827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143BC8D6206CBEDE0003C827 /* AppDelegate.swift */; };
+		143BC8D9206CBEDE0003C827 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143BC8D8206CBEDE0003C827 /* ViewController.swift */; };
+		143BC8DC206CBEDE0003C827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143BC8DA206CBEDE0003C827 /* Main.storyboard */; };
+		143BC8DE206CBEDE0003C827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143BC8DD206CBEDE0003C827 /* Assets.xcassets */; };
+		143BC8E1206CBEDE0003C827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143BC8DF206CBEDE0003C827 /* LaunchScreen.storyboard */; };
+		143BC8EC206CBEDE0003C827 /* mySteemitIdCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143BC8EB206CBEDE0003C827 /* mySteemitIdCardTests.swift */; };
+		143BC8F7206CBEDE0003C827 /* mySteemitIdCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143BC8F6206CBEDE0003C827 /* mySteemitIdCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		143BC8E8206CBEDE0003C827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 143BC8CB206CBEDE0003C827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 143BC8D2206CBEDE0003C827;
+			remoteInfo = mySteemitIdCard;
+		};
+		143BC8F3206CBEDE0003C827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 143BC8CB206CBEDE0003C827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 143BC8D2206CBEDE0003C827;
+			remoteInfo = mySteemitIdCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		143BC8D3206CBEDE0003C827 /* mySteemitIdCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySteemitIdCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		143BC8D6206CBEDE0003C827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		143BC8D8206CBEDE0003C827 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		143BC8DB206CBEDE0003C827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		143BC8DD206CBEDE0003C827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		143BC8E0206CBEDE0003C827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		143BC8E2206CBEDE0003C827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143BC8E7206CBEDE0003C827 /* mySteemitIdCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySteemitIdCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		143BC8EB206CBEDE0003C827 /* mySteemitIdCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySteemitIdCardTests.swift; sourceTree = "<group>"; };
+		143BC8ED206CBEDE0003C827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143BC8F2206CBEDE0003C827 /* mySteemitIdCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySteemitIdCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		143BC8F6206CBEDE0003C827 /* mySteemitIdCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySteemitIdCardUITests.swift; sourceTree = "<group>"; };
+		143BC8F8206CBEDE0003C827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		143BC8D0206CBEDE0003C827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143BC8E4206CBEDE0003C827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143BC8EF206CBEDE0003C827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		143BC8CA206CBEDE0003C827 = {
+			isa = PBXGroup;
+			children = (
+				143BC8D5206CBEDE0003C827 /* mySteemitIdCard */,
+				143BC8EA206CBEDE0003C827 /* mySteemitIdCardTests */,
+				143BC8F5206CBEDE0003C827 /* mySteemitIdCardUITests */,
+				143BC8D4206CBEDE0003C827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		143BC8D4206CBEDE0003C827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				143BC8D3206CBEDE0003C827 /* mySteemitIdCard.app */,
+				143BC8E7206CBEDE0003C827 /* mySteemitIdCardTests.xctest */,
+				143BC8F2206CBEDE0003C827 /* mySteemitIdCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		143BC8D5206CBEDE0003C827 /* mySteemitIdCard */ = {
+			isa = PBXGroup;
+			children = (
+				143BC8D6206CBEDE0003C827 /* AppDelegate.swift */,
+				143BC8D8206CBEDE0003C827 /* ViewController.swift */,
+				143BC8DA206CBEDE0003C827 /* Main.storyboard */,
+				143BC8DD206CBEDE0003C827 /* Assets.xcassets */,
+				143BC8DF206CBEDE0003C827 /* LaunchScreen.storyboard */,
+				143BC8E2206CBEDE0003C827 /* Info.plist */,
+			);
+			path = mySteemitIdCard;
+			sourceTree = "<group>";
+		};
+		143BC8EA206CBEDE0003C827 /* mySteemitIdCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				143BC8EB206CBEDE0003C827 /* mySteemitIdCardTests.swift */,
+				143BC8ED206CBEDE0003C827 /* Info.plist */,
+			);
+			path = mySteemitIdCardTests;
+			sourceTree = "<group>";
+		};
+		143BC8F5206CBEDE0003C827 /* mySteemitIdCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				143BC8F6206CBEDE0003C827 /* mySteemitIdCardUITests.swift */,
+				143BC8F8206CBEDE0003C827 /* Info.plist */,
+			);
+			path = mySteemitIdCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		143BC8D2206CBEDE0003C827 /* mySteemitIdCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143BC8FB206CBEDE0003C827 /* Build configuration list for PBXNativeTarget "mySteemitIdCard" */;
+			buildPhases = (
+				143BC8CF206CBEDE0003C827 /* Sources */,
+				143BC8D0206CBEDE0003C827 /* Frameworks */,
+				143BC8D1206CBEDE0003C827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mySteemitIdCard;
+			productName = mySteemitIdCard;
+			productReference = 143BC8D3206CBEDE0003C827 /* mySteemitIdCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		143BC8E6206CBEDE0003C827 /* mySteemitIdCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143BC8FE206CBEDE0003C827 /* Build configuration list for PBXNativeTarget "mySteemitIdCardTests" */;
+			buildPhases = (
+				143BC8E3206CBEDE0003C827 /* Sources */,
+				143BC8E4206CBEDE0003C827 /* Frameworks */,
+				143BC8E5206CBEDE0003C827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				143BC8E9206CBEDE0003C827 /* PBXTargetDependency */,
+			);
+			name = mySteemitIdCardTests;
+			productName = mySteemitIdCardTests;
+			productReference = 143BC8E7206CBEDE0003C827 /* mySteemitIdCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		143BC8F1206CBEDE0003C827 /* mySteemitIdCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143BC901206CBEDE0003C827 /* Build configuration list for PBXNativeTarget "mySteemitIdCardUITests" */;
+			buildPhases = (
+				143BC8EE206CBEDE0003C827 /* Sources */,
+				143BC8EF206CBEDE0003C827 /* Frameworks */,
+				143BC8F0206CBEDE0003C827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				143BC8F4206CBEDE0003C827 /* PBXTargetDependency */,
+			);
+			name = mySteemitIdCardUITests;
+			productName = mySteemitIdCardUITests;
+			productReference = 143BC8F2206CBEDE0003C827 /* mySteemitIdCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		143BC8CB206CBEDE0003C827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ankit Singh";
+				TargetAttributes = {
+					143BC8D2206CBEDE0003C827 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					143BC8E6206CBEDE0003C827 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 143BC8D2206CBEDE0003C827;
+					};
+					143BC8F1206CBEDE0003C827 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 143BC8D2206CBEDE0003C827;
+					};
+				};
+			};
+			buildConfigurationList = 143BC8CE206CBEDE0003C827 /* Build configuration list for PBXProject "mySteemitIdCard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 143BC8CA206CBEDE0003C827;
+			productRefGroup = 143BC8D4206CBEDE0003C827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				143BC8D2206CBEDE0003C827 /* mySteemitIdCard */,
+				143BC8E6206CBEDE0003C827 /* mySteemitIdCardTests */,
+				143BC8F1206CBEDE0003C827 /* mySteemitIdCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		143BC8D1206CBEDE0003C827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143BC8E1206CBEDE0003C827 /* LaunchScreen.storyboard in Resources */,
+				143BC8DE206CBEDE0003C827 /* Assets.xcassets in Resources */,
+				143BC8DC206CBEDE0003C827 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143BC8E5206CBEDE0003C827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143BC8F0206CBEDE0003C827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		143BC8CF206CBEDE0003C827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143BC8D9206CBEDE0003C827 /* ViewController.swift in Sources */,
+				143BC8D7206CBEDE0003C827 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143BC8E3206CBEDE0003C827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143BC8EC206CBEDE0003C827 /* mySteemitIdCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143BC8EE206CBEDE0003C827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143BC8F7206CBEDE0003C827 /* mySteemitIdCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		143BC8E9206CBEDE0003C827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 143BC8D2206CBEDE0003C827 /* mySteemitIdCard */;
+			targetProxy = 143BC8E8206CBEDE0003C827 /* PBXContainerItemProxy */;
+		};
+		143BC8F4206CBEDE0003C827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 143BC8D2206CBEDE0003C827 /* mySteemitIdCard */;
+			targetProxy = 143BC8F3206CBEDE0003C827 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		143BC8DA206CBEDE0003C827 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				143BC8DB206CBEDE0003C827 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		143BC8DF206CBEDE0003C827 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				143BC8E0206CBEDE0003C827 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		143BC8F9206CBEDE0003C827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		143BC8FA206CBEDE0003C827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		143BC8FC206CBEDE0003C827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CKF2URQY6;
+				INFOPLIST_FILE = mySteemitIdCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.mySteemitIdCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		143BC8FD206CBEDE0003C827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CKF2URQY6;
+				INFOPLIST_FILE = mySteemitIdCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.mySteemitIdCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		143BC8FF206CBEDE0003C827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CKF2URQY6;
+				INFOPLIST_FILE = mySteemitIdCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.mySteemitIdCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mySteemitIdCard.app/mySteemitIdCard";
+			};
+			name = Debug;
+		};
+		143BC900206CBEDE0003C827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CKF2URQY6;
+				INFOPLIST_FILE = mySteemitIdCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.mySteemitIdCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mySteemitIdCard.app/mySteemitIdCard";
+			};
+			name = Release;
+		};
+		143BC902206CBEDE0003C827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CKF2URQY6;
+				INFOPLIST_FILE = mySteemitIdCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.mySteemitIdCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mySteemitIdCard;
+			};
+			name = Debug;
+		};
+		143BC903206CBEDE0003C827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CKF2URQY6;
+				INFOPLIST_FILE = mySteemitIdCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.mySteemitIdCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mySteemitIdCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		143BC8CE206CBEDE0003C827 /* Build configuration list for PBXProject "mySteemitIdCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143BC8F9206CBEDE0003C827 /* Debug */,
+				143BC8FA206CBEDE0003C827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		143BC8FB206CBEDE0003C827 /* Build configuration list for PBXNativeTarget "mySteemitIdCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143BC8FC206CBEDE0003C827 /* Debug */,
+				143BC8FD206CBEDE0003C827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		143BC8FE206CBEDE0003C827 /* Build configuration list for PBXNativeTarget "mySteemitIdCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143BC8FF206CBEDE0003C827 /* Debug */,
+				143BC900206CBEDE0003C827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		143BC901206CBEDE0003C827 /* Build configuration list for PBXNativeTarget "mySteemitIdCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143BC902206CBEDE0003C827 /* Debug */,
+				143BC903206CBEDE0003C827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 143BC8CB206CBEDE0003C827 /* Project object */;
+}
