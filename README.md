@@ -22,7 +22,7 @@ I will add some of these features in upcoming days :-
 
 # Running and Development
 
-To contribute, all you need is xcode and a local copy of the project.
+As this app is not live at app store but you still run this app on your iPhone Device, all you need is Xcode and copy of project in your system. Open project in Xcode, install dependencies and run app on your device.
 
 # To install all project dependencies, run following command from the root directory.:
 
