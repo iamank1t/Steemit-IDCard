@@ -64,7 +64,7 @@ class IDcardVC: UIViewController {
         let image = imageWithView(view: self.mainView)
         
         //Then save your ID Card image
-        UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+        UIImageWriteToSavedPhotosAlbum(image, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
     }
     
     //function to convert the ID Card UIView into an UIImage
@@ -75,5 +75,20 @@ class IDcardVC: UIViewController {
         UIGraphicsEndImageContext()
         return image!
     }
+    
+    // function to show users alert, if image saved or not
+    @objc func image(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
+        if let error = error {
+            // we got back an error!
+            let ac = UIAlertController(title: "Save error", message: error.localizedDescription, preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "OK", style: .default))
+            present(ac, animated: true)
+        } else {
+            let ac = UIAlertController(title: "Yureka!", message: "Your Steem Id Card has been saved to your photos.", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "Great", style: .default))
+            present(ac, animated: true)
+        }
+    }
+
     
 }
