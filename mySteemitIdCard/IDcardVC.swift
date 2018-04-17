@@ -10,6 +10,7 @@ import UIKit
 import SDWebImage
 class IDcardVC: UIViewController {
 
+    @IBOutlet var mainView: UIView!
     @IBOutlet var profileImage: UIImageView!
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var userNameLabel: UILabel!
@@ -57,4 +58,22 @@ class IDcardVC: UIViewController {
         
         return nil
     }
+    
+    @IBAction func saveToDeviceButtonClicked(_ sender: Any) {
+        // get an UIImage object from this
+        let image = imageWithView(view: self.mainView)
+        
+        //Then save your ID Card image
+        UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+    }
+    
+    //function to convert the ID Card UIView into an UIImage
+    func imageWithView(view:UIView)->UIImage{
+        UIGraphicsBeginImageContextWithOptions(view.bounds.size, false, 0.0)
+        view.layer.render(in: UIGraphicsGetCurrentContext()!)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image!
+    }
+    
 }

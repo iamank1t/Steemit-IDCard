@@ -86,6 +86,12 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "userIdCardSegue"{
             let vc = segue.destination as! IDcardVC
+            vc.userName = nil
+            vc.finalUserData = nil
+            vc.joinDate = nil
+            vc.barcodeImage = nil
+            vc.id = nil
+            vc.profileImage = nil
             vc.userName = self.userName
             vc.finalUserData = self.finalUserData
             vc.joinDate = self.joinDate
