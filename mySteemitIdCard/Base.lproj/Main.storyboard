@@ -247,7 +247,6 @@
                                 </state>
                                 <connections>
                                     <action selector="addCustomImageButtonClicked:" destination="JzH-EK-sVj" eventType="touchUpInside" id="uqR-a8-T5i"/>
-                                    <action selector="saveToDeviceButtonClicked:" destination="JzH-EK-sVj" eventType="touchUpInside" id="VJn-dj-dyc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ht5-Kb-eGi">
@@ -261,7 +260,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="saveToDeviceButtonClicked:" destination="JzH-EK-sVj" eventType="touchUpInside" id="Jkp-jw-gmM"/>
                                     <segue destination="Skf-eG-8lH" kind="show" id="hN4-iD-0vT"/>
                                 </connections>
                             </button>
