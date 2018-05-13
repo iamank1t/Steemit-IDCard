@@ -15,6 +15,7 @@
 		143BC8EC206CBEDE0003C827 /* mySteemitIdCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143BC8EB206CBEDE0003C827 /* mySteemitIdCardTests.swift */; };
 		143BC8F7206CBEDE0003C827 /* mySteemitIdCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143BC8F6206CBEDE0003C827 /* mySteemitIdCardUITests.swift */; };
 		143BC905206CFE870003C827 /* IDcardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143BC904206CFE870003C827 /* IDcardVC.swift */; };
+		1483C27A20A865AC00855017 /* PrintRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483C27920A865AC00855017 /* PrintRequestVC.swift */; };
 		506A0AED330A1372645A9C65 /* Pods_mySteemitIdCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98827C95F141DD15780531A /* Pods_mySteemitIdCard.framework */; };
 		508BAC097F157A45B4631439 /* Pods_mySteemitIdCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1943FC95CB62EF32327A2372 /* Pods_mySteemitIdCardTests.framework */; };
 		82898B95810964ED95932E46 /* Pods_mySteemitIdCardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644830D89D33729A97ADFCF2 /* Pods_mySteemitIdCardUITests.framework */; };
@@ -54,6 +55,7 @@
 		143BC8F6206CBEDE0003C827 /* mySteemitIdCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySteemitIdCardUITests.swift; sourceTree = "<group>"; };
 		143BC8F8206CBEDE0003C827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		143BC904206CFE870003C827 /* IDcardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDcardVC.swift; sourceTree = "<group>"; };
+		1483C27920A865AC00855017 /* PrintRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintRequestVC.swift; sourceTree = "<group>"; };
 		1943FC95CB62EF32327A2372 /* Pods_mySteemitIdCardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mySteemitIdCardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E106F024ED2EB446988C1DD /* Pods-mySteemitIdCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySteemitIdCardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mySteemitIdCardTests/Pods-mySteemitIdCardTests.release.xcconfig"; sourceTree = "<group>"; };
 		644830D89D33729A97ADFCF2 /* Pods_mySteemitIdCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mySteemitIdCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 				143BC8DD206CBEDE0003C827 /* Assets.xcassets */,
 				143BC8DF206CBEDE0003C827 /* LaunchScreen.storyboard */,
 				143BC8E2206CBEDE0003C827 /* Info.plist */,
+				1483C27920A865AC00855017 /* PrintRequestVC.swift */,
 			);
 			path = mySteemitIdCard;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 			files = (
 				143BC905206CFE870003C827 /* IDcardVC.swift in Sources */,
 				143BC8D9206CBEDE0003C827 /* ViewController.swift in Sources */,
+				1483C27A20A865AC00855017 /* PrintRequestVC.swift in Sources */,
 				143BC8D7206CBEDE0003C827 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

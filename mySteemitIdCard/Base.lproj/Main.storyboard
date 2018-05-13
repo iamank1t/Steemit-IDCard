@@ -26,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="-686" y="150"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="mySteemitIdCard" customModuleProvider="target" sceneMemberID="viewController">
@@ -93,7 +93,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="wHc-1G-ZuK"/>
+                    <navigationItem key="navigationItem" title="Welcome" id="UUw-s9-lse"/>
                     <connections>
                         <outlet property="usernameTextfield" destination="16u-59-ORU" id="6Lk-yD-Sjb"/>
                         <segue destination="JzH-EK-sVj" kind="show" identifier="userIdCardSegue" id="85g-qt-VUL"/>
@@ -249,14 +249,31 @@
                                     <action selector="saveToDeviceButtonClicked:" destination="JzH-EK-sVj" eventType="touchUpInside" id="Lwe-2U-nJk"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ht5-Kb-eGi">
+                                <rect key="frame" x="57" y="524" width="260" height="40"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.80392156859999997" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="Jeq-Nr-rMg"/>
+                                    <constraint firstAttribute="height" constant="40" id="fKg-2U-UlI"/>
+                                </constraints>
+                                <state key="normal" title="Request for Print">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveToDeviceButtonClicked:" destination="JzH-EK-sVj" eventType="touchUpInside" id="Jkp-jw-gmM"/>
+                                    <segue destination="Skf-eG-8lH" kind="show" id="hN4-iD-0vT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.4039215686" green="0.74901960779999999" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="8zA-xJ-fqi" firstAttribute="trailing" secondItem="Y9t-M5-f93" secondAttribute="trailing" constant="15" id="08X-Tg-hIR"/>
+                            <constraint firstItem="ht5-Kb-eGi" firstAttribute="top" secondItem="cri-hL-Rdp" secondAttribute="bottom" constant="15" id="3e8-8q-OAP"/>
                             <constraint firstItem="VYC-rA-JSQ" firstAttribute="leading" secondItem="8zA-xJ-fqi" secondAttribute="leading" constant="40" id="BEJ-9u-ecK"/>
                             <constraint firstItem="cri-hL-Rdp" firstAttribute="top" secondItem="Y9t-M5-f93" secondAttribute="bottom" constant="40" id="Gbm-uv-SIg"/>
                             <constraint firstItem="8zA-xJ-fqi" firstAttribute="trailing" secondItem="VYC-rA-JSQ" secondAttribute="trailing" constant="40" id="QPO-xj-UdS"/>
                             <constraint firstItem="Y9t-M5-f93" firstAttribute="leading" secondItem="qN1-HT-gjy" secondAttribute="leading" constant="15" id="UCU-8S-Wj9"/>
+                            <constraint firstItem="ht5-Kb-eGi" firstAttribute="centerX" secondItem="8zA-xJ-fqi" secondAttribute="centerX" id="eF8-WR-QGd"/>
                             <constraint firstItem="VYC-rA-JSQ" firstAttribute="top" secondItem="8zA-xJ-fqi" secondAttribute="top" constant="25" id="f9x-0q-Em2"/>
                             <constraint firstItem="cri-hL-Rdp" firstAttribute="centerX" secondItem="8zA-xJ-fqi" secondAttribute="centerX" id="zd1-v8-dRE"/>
                             <constraint firstItem="Y9t-M5-f93" firstAttribute="top" secondItem="VYC-rA-JSQ" secondAttribute="bottom" constant="40" id="zvH-ob-QTm"/>
@@ -276,6 +293,138 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GiA-fv-VrM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="892" y="133.5832083958021"/>
+        </scene>
+        <!--Request for Print-->
+        <scene sceneID="TsF-q6-myI">
+            <objects>
+                <viewController storyboardIdentifier="PrintRequestVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Skf-eG-8lH" customClass="PrintRequestVC" customModule="mySteemitIdCard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bic-wz-dGV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter correct details to get a printed copy of your ID Card at your doorstep" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDx-rR-4mM">
+                                <rect key="frame" x="20" y="84" width="335" height="61"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steemit Account Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKY-4Q-TFp">
+                                <rect key="frame" x="20" y="175" width="210" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6wz-d9-8iF">
+                                <rect key="frame" x="20" y="206" width="260" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="0S1-ST-P4w"/>
+                                    <constraint firstAttribute="height" constant="40" id="Zy9-KQ-j5R"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTG-qS-Uax">
+                                <rect key="frame" x="20" y="256" width="108" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Postal Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cvc-vA-v3B">
+                                <rect key="frame" x="20" y="337" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VSi-sq-cxf">
+                                <rect key="frame" x="20" y="287" width="260" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="MNi-bR-loE"/>
+                                    <constraint firstAttribute="width" constant="260" id="ZpX-Uz-Akb"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9i0-vI-Rea">
+                                <rect key="frame" x="20" y="368" width="260" height="90"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="IFS-KD-3ng"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkB-TV-UJI">
+                                <rect key="frame" x="57" y="554" width="260" height="40"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.80392156859999997" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6lx-gD-tKJ"/>
+                                    <constraint firstAttribute="width" constant="260" id="NMy-9i-1BF"/>
+                                </constraints>
+                                <state key="normal" title="Request for Print">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="printButtonClicked:" destination="Skf-eG-8lH" eventType="touchUpInside" id="ZkW-29-FYA"/>
+                                    <action selector="saveToDeviceButtonClicked:" destination="JzH-EK-sVj" eventType="touchUpInside" id="Hpj-Dd-hub"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zip Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRE-UG-Cbs">
+                                <rect key="frame" x="20" y="468" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wdz-ZF-MgA">
+                                <rect key="frame" x="20" y="499" width="260" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="kvS-5e-3dp"/>
+                                    <constraint firstAttribute="height" constant="40" id="wQU-JJ-cj5"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4039215686" green="0.74901960779999999" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FTG-qS-Uax" firstAttribute="leading" secondItem="6wz-d9-8iF" secondAttribute="leading" id="0h1-PJ-Ah6"/>
+                            <constraint firstItem="6wz-d9-8iF" firstAttribute="top" secondItem="CKY-4Q-TFp" secondAttribute="bottom" constant="10" id="1mY-l4-830"/>
+                            <constraint firstItem="9i0-vI-Rea" firstAttribute="top" secondItem="Cvc-vA-v3B" secondAttribute="bottom" constant="10" id="8lh-4C-DfG"/>
+                            <constraint firstItem="MkB-TV-UJI" firstAttribute="top" secondItem="Wdz-ZF-MgA" secondAttribute="bottom" constant="15" id="GPI-va-Mtr"/>
+                            <constraint firstItem="CKY-4Q-TFp" firstAttribute="top" secondItem="XDx-rR-4mM" secondAttribute="bottom" constant="30" id="H3f-14-4rK"/>
+                            <constraint firstItem="FTG-qS-Uax" firstAttribute="top" secondItem="6wz-d9-8iF" secondAttribute="bottom" constant="10" id="Q6e-xK-Vvh"/>
+                            <constraint firstItem="KRE-UG-Cbs" firstAttribute="leading" secondItem="9i0-vI-Rea" secondAttribute="leading" id="QyD-zr-qVG"/>
+                            <constraint firstItem="KRE-UG-Cbs" firstAttribute="top" secondItem="9i0-vI-Rea" secondAttribute="bottom" constant="10" id="Twa-gN-MMr"/>
+                            <constraint firstItem="6wz-d9-8iF" firstAttribute="leading" secondItem="CKY-4Q-TFp" secondAttribute="leading" id="VGq-Fa-kpn"/>
+                            <constraint firstItem="Wdz-ZF-MgA" firstAttribute="leading" secondItem="KRE-UG-Cbs" secondAttribute="leading" id="XC6-Ch-L0E"/>
+                            <constraint firstItem="Cvc-vA-v3B" firstAttribute="leading" secondItem="VSi-sq-cxf" secondAttribute="leading" id="Zd8-7g-iJ0"/>
+                            <constraint firstItem="9i0-vI-Rea" firstAttribute="trailing" secondItem="VSi-sq-cxf" secondAttribute="trailing" id="b09-Hu-jJm"/>
+                            <constraint firstItem="9i0-vI-Rea" firstAttribute="leading" secondItem="Cvc-vA-v3B" secondAttribute="leading" id="cG7-Ft-ThJ"/>
+                            <constraint firstAttribute="trailing" secondItem="XDx-rR-4mM" secondAttribute="trailing" constant="20" id="e9C-kh-av0"/>
+                            <constraint firstItem="XDx-rR-4mM" firstAttribute="top" secondItem="1Wg-D0-GiN" secondAttribute="top" constant="20" id="f5S-7A-9dN"/>
+                            <constraint firstItem="Cvc-vA-v3B" firstAttribute="top" secondItem="VSi-sq-cxf" secondAttribute="bottom" constant="10" id="gkT-Bz-6R8"/>
+                            <constraint firstItem="XDx-rR-4mM" firstAttribute="leading" secondItem="1Wg-D0-GiN" secondAttribute="leading" constant="20" id="jwg-2c-f8m"/>
+                            <constraint firstItem="VSi-sq-cxf" firstAttribute="leading" secondItem="FTG-qS-Uax" secondAttribute="leading" id="kmf-kv-Omb"/>
+                            <constraint firstItem="MkB-TV-UJI" firstAttribute="centerX" secondItem="1Wg-D0-GiN" secondAttribute="centerX" id="l5W-5O-PFV"/>
+                            <constraint firstItem="Wdz-ZF-MgA" firstAttribute="top" secondItem="KRE-UG-Cbs" secondAttribute="bottom" constant="10" id="ok7-dr-gNJ"/>
+                            <constraint firstItem="CKY-4Q-TFp" firstAttribute="leading" secondItem="1Wg-D0-GiN" secondAttribute="leading" constant="20" id="rph-33-bHP"/>
+                            <constraint firstItem="VSi-sq-cxf" firstAttribute="top" secondItem="FTG-qS-Uax" secondAttribute="bottom" constant="10" id="uPP-gi-JQj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1Wg-D0-GiN"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Request for Print" id="EUP-py-Jfb"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="VSi-sq-cxf" id="BK6-kc-cgB"/>
+                        <outlet property="nameTextField" destination="6wz-d9-8iF" id="IZZ-G1-ig1"/>
+                        <outlet property="postalAddressTextField" destination="9i0-vI-Rea" id="4kJ-cF-8dg"/>
+                        <outlet property="zipCodeTextField" destination="Wdz-ZF-MgA" id="Nqj-ny-caA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qLg-f2-iKV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1582" y="134"/>
         </scene>
     </scenes>
     <resources>
