@@ -24,6 +24,7 @@ class ViewController: UIViewController {
 
     func getUserData(userName: String) {
         showLoadingIndicator()
+        var statusCode: String?
         let url = URL(string: "https://steemit.com/@" + userName + ".json")!
         URLSession.shared.dataTask(with: url, completionHandler: {
             (data, response, error) in
@@ -32,6 +33,13 @@ class ViewController: UIViewController {
             }else{
                 do{
                     var json = try JSONSerialization.jsonObject(with: data!, options: []) as! [String: AnyObject]
+                    if let status = json["status"] as? String {
+                        statusCode = status
+                        if statusCode != "404" {
+                             statusCode = ""
+                        }
+                    }
+                    if (statusCode?.isEmpty)! {
                     if let userDetailData = json["user"]!["json_metadata"] as? [String: AnyObject] {
                         DispatchQueue.main.async {
                             self.finalUserData = userDetailData["profile"] as? [String: AnyObject]
@@ -43,6 +51,23 @@ class ViewController: UIViewController {
                         self.id = json["user"]!["id"] as? Int
                         self.sendToDetailVC()
                     }
+                    }
+                    else {
+                        let alert = UIAlertController(
+                            title: "Error",
+                            message: "Please enter a valid username",
+                            preferredStyle: UIAlertControllerStyle.alert)
+                        
+                        alert.addAction(UIAlertAction(
+                            title: NSLocalizedString("Ok", comment: "Ok"),
+                            style: UIAlertActionStyle.default,
+                            handler: nil))
+                        DispatchQueue.main.async(execute: {
+                            self.stopLoadingIndicator()
+                            statusCode = ""
+                            self.present(alert, animated: true, completion: nil)
+                        })
+                    }
                 }catch let error as NSError{
                     print(error)
                 }
@@ -53,7 +78,18 @@ class ViewController: UIViewController {
     
     @IBAction func goButtonClicked(_ sender: Any) {
         if (self.usernameTextfield.text?.isEmpty)! {
+            let alert = UIAlertController(
+                title: "Error",
+                message: "User name can't be blank!",
+                preferredStyle: UIAlertControllerStyle.alert)
             
+            alert.addAction(UIAlertAction(
+                title: NSLocalizedString("Ok", comment: "Ok"),
+                style: UIAlertActionStyle.default,
+                handler: nil))
+            DispatchQueue.main.async(execute: {
+                self.present(alert, animated: true, completion: nil)
+            })
         }
         else {
             self.getUserData(userName: self.usernameTextfield.text!)

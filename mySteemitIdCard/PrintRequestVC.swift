@@ -82,7 +82,7 @@ class PrintRequestVC: UIViewController {
                     preferredStyle: UIAlertControllerStyle.alert)
                 
                 alert.addAction(UIAlertAction(
-                    title: NSLocalizedString("Ok-Title", comment: "Ok-Title"),
+                    title: NSLocalizedString("Ok", comment: "Ok"),
                     style: UIAlertActionStyle.default,
                     handler: nil))
                 DispatchQueue.main.async(execute: {
@@ -91,11 +91,11 @@ class PrintRequestVC: UIViewController {
                 
             } else if(res?.statusCode == 422) {
                 let alert = UIAlertController(
-                    title: "",
-                    message: "",
+                    title: "Error",
+                    message: "Something Went Wrong",
                     preferredStyle: UIAlertControllerStyle.alert)
                 alert.addAction(UIAlertAction(
-                    title: NSLocalizedString("Ok-Title", comment: "Ok-Title"),
+                    title: NSLocalizedString("Ok", comment: "Ok"),
                     style: UIAlertActionStyle.default,
                     handler: nil))
                 DispatchQueue.main.async(execute: {

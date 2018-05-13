@@ -43,5 +43,9 @@
 	</array>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>We have to access you photo library to save Steem ID Card Image!</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Please allow app to use your camera</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Please allow app, to choose picture from your library</string>
 </dict>
 </plist>
