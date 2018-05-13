@@ -235,22 +235,23 @@
                                     <constraint firstItem="qnl-VE-5Wy" firstAttribute="top" secondItem="kKT-UH-w9O" secondAttribute="bottom" constant="17" id="z00-aI-dRu"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cri-hL-Rdp">
-                                <rect key="frame" x="57" y="469" width="260" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2B-lF-frX">
+                                <rect key="frame" x="57" y="454" width="260" height="40"/>
                                 <color key="backgroundColor" red="0.21960784310000001" green="0.80392156859999997" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="72i-FJ-wtb"/>
-                                    <constraint firstAttribute="width" constant="260" id="Omi-bt-J53"/>
+                                    <constraint firstAttribute="width" constant="260" id="PYk-y1-d0j"/>
+                                    <constraint firstAttribute="height" constant="40" id="nFZ-de-oKL"/>
                                 </constraints>
-                                <state key="normal" title="Save To Device">
+                                <state key="normal" title="Add Custom Image On Id Card">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="saveToDeviceButtonClicked:" destination="JzH-EK-sVj" eventType="touchUpInside" id="Lwe-2U-nJk"/>
+                                    <action selector="addCustomImageButtonClicked:" destination="JzH-EK-sVj" eventType="touchUpInside" id="uqR-a8-T5i"/>
+                                    <action selector="saveToDeviceButtonClicked:" destination="JzH-EK-sVj" eventType="touchUpInside" id="VJn-dj-dyc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ht5-Kb-eGi">
-                                <rect key="frame" x="57" y="524" width="260" height="40"/>
+                                <rect key="frame" x="57" y="564" width="260" height="40"/>
                                 <color key="backgroundColor" red="0.21960784310000001" green="0.80392156859999997" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="260" id="Jeq-Nr-rMg"/>
@@ -264,17 +265,33 @@
                                     <segue destination="Skf-eG-8lH" kind="show" id="hN4-iD-0vT"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cri-hL-Rdp">
+                                <rect key="frame" x="57" y="509" width="260" height="40"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="0.80392156859999997" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="72i-FJ-wtb"/>
+                                    <constraint firstAttribute="width" constant="260" id="Omi-bt-J53"/>
+                                </constraints>
+                                <state key="normal" title="Save To Device">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveToDeviceButtonClicked:" destination="JzH-EK-sVj" eventType="touchUpInside" id="Lwe-2U-nJk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.4039215686" green="0.74901960779999999" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="8zA-xJ-fqi" firstAttribute="trailing" secondItem="Y9t-M5-f93" secondAttribute="trailing" constant="15" id="08X-Tg-hIR"/>
                             <constraint firstItem="ht5-Kb-eGi" firstAttribute="top" secondItem="cri-hL-Rdp" secondAttribute="bottom" constant="15" id="3e8-8q-OAP"/>
                             <constraint firstItem="VYC-rA-JSQ" firstAttribute="leading" secondItem="8zA-xJ-fqi" secondAttribute="leading" constant="40" id="BEJ-9u-ecK"/>
-                            <constraint firstItem="cri-hL-Rdp" firstAttribute="top" secondItem="Y9t-M5-f93" secondAttribute="bottom" constant="40" id="Gbm-uv-SIg"/>
                             <constraint firstItem="8zA-xJ-fqi" firstAttribute="trailing" secondItem="VYC-rA-JSQ" secondAttribute="trailing" constant="40" id="QPO-xj-UdS"/>
                             <constraint firstItem="Y9t-M5-f93" firstAttribute="leading" secondItem="qN1-HT-gjy" secondAttribute="leading" constant="15" id="UCU-8S-Wj9"/>
+                            <constraint firstItem="H2B-lF-frX" firstAttribute="top" secondItem="Y9t-M5-f93" secondAttribute="bottom" constant="25" id="bak-dS-G2t"/>
                             <constraint firstItem="ht5-Kb-eGi" firstAttribute="centerX" secondItem="8zA-xJ-fqi" secondAttribute="centerX" id="eF8-WR-QGd"/>
                             <constraint firstItem="VYC-rA-JSQ" firstAttribute="top" secondItem="8zA-xJ-fqi" secondAttribute="top" constant="25" id="f9x-0q-Em2"/>
+                            <constraint firstItem="cri-hL-Rdp" firstAttribute="top" secondItem="H2B-lF-frX" secondAttribute="bottom" constant="15" id="fqd-Jk-lP4"/>
+                            <constraint firstItem="H2B-lF-frX" firstAttribute="centerX" secondItem="8zA-xJ-fqi" secondAttribute="centerX" id="y12-Ew-MhU"/>
                             <constraint firstItem="cri-hL-Rdp" firstAttribute="centerX" secondItem="8zA-xJ-fqi" secondAttribute="centerX" id="zd1-v8-dRE"/>
                             <constraint firstItem="Y9t-M5-f93" firstAttribute="top" secondItem="VYC-rA-JSQ" secondAttribute="bottom" constant="40" id="zvH-ob-QTm"/>
                         </constraints>
